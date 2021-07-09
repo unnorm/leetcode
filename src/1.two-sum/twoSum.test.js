@@ -11,7 +11,7 @@ function testTwoSum() {
     assert.strictEqual(
         result.map(v => nums[v]).reduce((p, c) => p + c),
         taget,
-    )
+    );
 }
 
 testTwoSum();
